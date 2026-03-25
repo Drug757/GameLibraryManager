@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Бронирование переговорных</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Комнаты</h2>
+        <div id="rooms"></div>
+    </div>
+
+    <div class="card">
+        <h2>Бронирования</h2>
+        <div id="bookings"></div>
+    </div>
+
+</div>
+
+<div class="card form">
+    <h2>Забронировать</h2>
+    <input id="user" placeholder="Ваше имя">
+    <input id="room" placeholder="ID комнаты">
+    <input id="time" placeholder="Время (например 12:00)">
+    <button onclick="book()">Забронировать</button>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
